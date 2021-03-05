@@ -1,22 +1,48 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Workshop - Desafio</title>
+    <title>Workshop - Desafio { }</title>
     <link rel="stylesheet" type="text/css" href="css/desafio.css" />
   </head>
   <body>
-    <label for="valor-hora">Valor Hora</label>
-    <input type="number" id="valor-hora" />
+    <div class="background">
+      <div class="card">
+        <div class="display">
+          <div class="display-header">
+            <h1>
+              Calculadora de Freelas
+            </h1>
+            <h2>Seja bem vinda, dev!</h2>
+            <p>Aqui iremos ajudar você a valorizar seu job
+               cobrando um preço justo por ele.</p>
 
-    <label for="horas-projeto">Horas Projeto</label>
-    <input type="number" id="horas-projeto" />
-
-    <span id="resposta">Resposta</span>
-    <button onclick="calcular()">Calcular Projeto</button>
-
-    <a href="index.html">Voltar</a>
+          </div>
+          
+        </div>
+        <div class="calculator">
+          
+          <div class="form">
+            <span id="resposta">R$ 0,00</span>
+            
+            <div class="input-wrapper">
+              <input type="number" id="valor-hora" placeholder="Valor Hora" />
+              
+              <input type="number" id="horas-projeto" placeholder="Horas Projeto" />
+            </div>
+            
+            <div class="form-footer">
+              <button onclick="resetar()">Resetar</button>
+              <button onclick="calcularValorTrabalho()">Calcular Projeto</button>
+            </div>            
+            <div class="display-footer">
+              <a href="index.html">Volte para calcular quanto vale sua hora de trabalho</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
 
     <script type="text/javascript" src="js/desafio.js"></script>
   </body>

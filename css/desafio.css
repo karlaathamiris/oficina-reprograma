@@ -1,3 +1,6 @@
+@import url("https://fonts.googleapis.com/css?family=Lato:400,700");
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+
 body {
   display: flex;
   flex-direction: column;
@@ -5,3 +8,38 @@ body {
   align-items: center;
   box-sizing: border-box;
 }
+
+.background {
+  background-image: linear-gradient(to right, #9e7cee, #9574c2);
+  border-radius: 2%;
+}
+
+.card {
+  margin: center;
+  padding: 10%;
+}
+
+.display {
+  font-family: Roboto;
+}
+
+.calculator {
+  padding: 48px;
+  height: 20%;
+  width: 50%;
+  align-items: center;
+}
+
+#resposta {
+  font-family: Lato;
+  font-weight: 700;
+  font-size: 22pt;
+  color: black;
+  margin: 16px 0;
+}
+
+.display-footer {
+  margin-top: 15px;
+  font-size: 20px;
+}
+
